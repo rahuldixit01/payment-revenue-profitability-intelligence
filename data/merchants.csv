@@ -1,0 +1,301 @@
+merchant_id,merchant_name,segment,merchant_type,city,state,onboarding_date,fee_rate_pct
+MER-0001,Merchant 001,Large,Food,Mumbai,Maharashtra,2025-04-26,1.42
+MER-0002,Merchant 002,Enterprise,Retail,Mumbai,Maharashtra,2025-06-29,1.23
+MER-0003,Merchant 003,Small,Food,Delhi,Delhi,2025-11-25,1.92
+MER-0004,Merchant 004,Medium,Home,Chennai,Tamil Nadu,2026-06-04,1.79
+MER-0005,Merchant 005,Enterprise,Travel,Indore,Madhya Pradesh,2025-09-11,1.48
+MER-0006,Merchant 006,Small,Electronics,Delhi,Delhi,2026-03-11,1.58
+MER-0007,Merchant 007,Large,Retail,Pune,Maharashtra,2026-03-19,1.93
+MER-0008,Merchant 008,Enterprise,Electronics,Chennai,Tamil Nadu,2025-08-06,1.75
+MER-0009,Merchant 009,Medium,Electronics,Ahmedabad,Gujarat,2026-04-06,1.25
+MER-0010,Merchant 010,Small,Food,Delhi,Delhi,2026-01-22,2.07
+MER-0011,Merchant 011,Enterprise,Travel,Jaipur,Rajasthan,2026-01-10,1.36
+MER-0012,Merchant 012,Large,Electronics,Pune,Maharashtra,2025-11-01,1.81
+MER-0013,Merchant 013,Medium,Fashion,Bengaluru,Karnataka,2026-09-29,1.66
+MER-0014,Merchant 014,Large,Retail,Hyderabad,Telangana,2025-11-11,1.43
+MER-0015,Merchant 015,Enterprise,Healthcare,Indore,Madhya Pradesh,2026-02-18,1.27
+MER-0016,Merchant 016,Medium,Home,Ahmedabad,Gujarat,2026-02-17,1.6
+MER-0017,Merchant 017,Large,Fashion,Lucknow,Uttar Pradesh,2025-08-25,1.45
+MER-0018,Merchant 018,Enterprise,Education,Chennai,Tamil Nadu,2025-12-26,1.56
+MER-0019,Merchant 019,Enterprise,Electronics,Bengaluru,Karnataka,2026-09-04,1.96
+MER-0020,Merchant 020,Medium,Education,Mumbai,Maharashtra,2025-09-04,1.8
+MER-0021,Merchant 021,Enterprise,Healthcare,Jaipur,Rajasthan,2026-04-26,2.17
+MER-0022,Merchant 022,Large,Travel,Indore,Madhya Pradesh,2025-07-27,1.31
+MER-0023,Merchant 023,Enterprise,Retail,Jaipur,Rajasthan,2025-09-09,2.15
+MER-0024,Merchant 024,Medium,Electronics,Hyderabad,Telangana,2026-08-26,2.07
+MER-0025,Merchant 025,Medium,Fashion,Hyderabad,Telangana,2026-09-02,1.57
+MER-0026,Merchant 026,Small,Travel,Bengaluru,Karnataka,2026-09-26,1.69
+MER-0027,Merchant 027,Large,Food,Mumbai,Maharashtra,2026-04-07,1.26
+MER-0028,Merchant 028,Small,Home,Ahmedabad,Gujarat,2025-06-20,2.02
+MER-0029,Merchant 029,Medium,Home,Chennai,Tamil Nadu,2025-08-07,2.15
+MER-0030,Merchant 030,Enterprise,Food,Bengaluru,Karnataka,2025-12-28,2.13
+MER-0031,Merchant 031,Enterprise,Travel,Delhi,Delhi,2026-02-14,1.64
+MER-0032,Merchant 032,Small,Food,Chennai,Tamil Nadu,2026-07-07,1.42
+MER-0033,Merchant 033,Medium,Food,Pune,Maharashtra,2025-04-22,1.21
+MER-0034,Merchant 034,Small,Retail,Indore,Madhya Pradesh,2025-11-21,2.06
+MER-0035,Merchant 035,Medium,Healthcare,Mumbai,Maharashtra,2026-09-09,1.87
+MER-0036,Merchant 036,Enterprise,Food,Delhi,Delhi,2025-08-14,1.98
+MER-0037,Merchant 037,Small,Electronics,Jaipur,Rajasthan,2025-10-12,1.86
+MER-0038,Merchant 038,Enterprise,Home,Pune,Maharashtra,2026-06-08,2.06
+MER-0039,Merchant 039,Small,Education,Indore,Madhya Pradesh,2025-07-10,1.93
+MER-0040,Merchant 040,Medium,Food,Mumbai,Maharashtra,2025-12-11,1.74
+MER-0041,Merchant 041,Medium,Healthcare,Bengaluru,Karnataka,2026-06-07,1.66
+MER-0042,Merchant 042,Small,Retail,Mumbai,Maharashtra,2026-06-28,1.85
+MER-0043,Merchant 043,Small,Food,Chennai,Tamil Nadu,2025-04-16,1.37
+MER-0044,Merchant 044,Medium,Education,Lucknow,Uttar Pradesh,2026-08-06,2.1
+MER-0045,Merchant 045,Small,Education,Bengaluru,Karnataka,2026-04-24,1.47
+MER-0046,Merchant 046,Enterprise,Home,Lucknow,Uttar Pradesh,2026-01-18,1.35
+MER-0047,Merchant 047,Small,Retail,Hyderabad,Telangana,2025-11-09,1.95
+MER-0048,Merchant 048,Enterprise,Fashion,Indore,Madhya Pradesh,2025-05-22,1.26
+MER-0049,Merchant 049,Medium,Electronics,Chennai,Tamil Nadu,2025-06-22,1.8
+MER-0050,Merchant 050,Small,Food,Delhi,Delhi,2026-05-19,1.78
+MER-0051,Merchant 051,Enterprise,Travel,Indore,Madhya Pradesh,2025-06-23,2.13
+MER-0052,Merchant 052,Medium,Healthcare,Delhi,Delhi,2026-02-16,1.6
+MER-0053,Merchant 053,Large,Electronics,Hyderabad,Telangana,2026-07-13,1.21
+MER-0054,Merchant 054,Small,Food,Ahmedabad,Gujarat,2025-07-12,1.71
+MER-0055,Merchant 055,Small,Food,Bengaluru,Karnataka,2026-03-24,1.57
+MER-0056,Merchant 056,Large,Retail,Bengaluru,Karnataka,2026-06-23,1.87
+MER-0057,Merchant 057,Small,Fashion,Chennai,Tamil Nadu,2026-02-01,1.46
+MER-0058,Merchant 058,Large,Healthcare,Mumbai,Maharashtra,2025-09-07,1.8
+MER-0059,Merchant 059,Large,Home,Pune,Maharashtra,2025-10-26,1.45
+MER-0060,Merchant 060,Enterprise,Healthcare,Indore,Madhya Pradesh,2025-07-04,1.24
+MER-0061,Merchant 061,Large,Fashion,Pune,Maharashtra,2025-08-12,1.94
+MER-0062,Merchant 062,Small,Electronics,Chennai,Tamil Nadu,2026-06-12,1.28
+MER-0063,Merchant 063,Large,Fashion,Bengaluru,Karnataka,2025-05-07,1.63
+MER-0064,Merchant 064,Large,Retail,Indore,Madhya Pradesh,2026-02-10,2.1
+MER-0065,Merchant 065,Small,Travel,Delhi,Delhi,2025-12-12,1.98
+MER-0066,Merchant 066,Medium,Fashion,Jaipur,Rajasthan,2025-09-06,2.18
+MER-0067,Merchant 067,Small,Fashion,Bengaluru,Karnataka,2026-05-28,1.94
+MER-0068,Merchant 068,Medium,Healthcare,Pune,Maharashtra,2026-05-27,1.36
+MER-0069,Merchant 069,Small,Home,Mumbai,Maharashtra,2026-04-27,1.42
+MER-0070,Merchant 070,Large,Food,Lucknow,Uttar Pradesh,2026-03-25,1.42
+MER-0071,Merchant 071,Large,Healthcare,Delhi,Delhi,2026-05-14,2.06
+MER-0072,Merchant 072,Enterprise,Travel,Hyderabad,Telangana,2026-03-26,2.14
+MER-0073,Merchant 073,Medium,Healthcare,Mumbai,Maharashtra,2025-12-24,1.24
+MER-0074,Merchant 074,Large,Travel,Ahmedabad,Gujarat,2026-06-19,1.64
+MER-0075,Merchant 075,Enterprise,Food,Chennai,Tamil Nadu,2025-07-28,1.45
+MER-0076,Merchant 076,Medium,Travel,Jaipur,Rajasthan,2025-04-02,1.63
+MER-0077,Merchant 077,Small,Healthcare,Pune,Maharashtra,2026-02-16,1.71
+MER-0078,Merchant 078,Enterprise,Healthcare,Jaipur,Rajasthan,2026-03-01,1.75
+MER-0079,Merchant 079,Enterprise,Fashion,Delhi,Delhi,2026-06-05,1.82
+MER-0080,Merchant 080,Small,Healthcare,Hyderabad,Telangana,2026-05-21,1.49
+MER-0081,Merchant 081,Enterprise,Home,Jaipur,Rajasthan,2026-02-24,1.64
+MER-0082,Merchant 082,Enterprise,Fashion,Delhi,Delhi,2026-09-06,1.86
+MER-0083,Merchant 083,Large,Electronics,Hyderabad,Telangana,2026-09-10,2.02
+MER-0084,Merchant 084,Medium,Food,Delhi,Delhi,2026-02-12,1.35
+MER-0085,Merchant 085,Enterprise,Electronics,Indore,Madhya Pradesh,2025-12-07,1.66
+MER-0086,Merchant 086,Enterprise,Home,Ahmedabad,Gujarat,2025-10-17,1.6
+MER-0087,Merchant 087,Small,Education,Bengaluru,Karnataka,2025-04-06,1.42
+MER-0088,Merchant 088,Small,Food,Chennai,Tamil Nadu,2026-07-20,2.12
+MER-0089,Merchant 089,Medium,Home,Mumbai,Maharashtra,2026-07-12,1.87
+MER-0090,Merchant 090,Enterprise,Education,Chennai,Tamil Nadu,2026-02-19,2.03
+MER-0091,Merchant 091,Medium,Home,Chennai,Tamil Nadu,2026-07-01,1.65
+MER-0092,Merchant 092,Enterprise,Food,Delhi,Delhi,2026-01-09,1.47
+MER-0093,Merchant 093,Medium,Healthcare,Mumbai,Maharashtra,2026-01-18,1.54
+MER-0094,Merchant 094,Medium,Fashion,Chennai,Tamil Nadu,2025-06-22,1.43
+MER-0095,Merchant 095,Small,Education,Bengaluru,Karnataka,2025-11-06,1.61
+MER-0096,Merchant 096,Enterprise,Retail,Chennai,Tamil Nadu,2026-07-22,1.41
+MER-0097,Merchant 097,Small,Education,Jaipur,Rajasthan,2026-05-04,1.68
+MER-0098,Merchant 098,Enterprise,Education,Pune,Maharashtra,2026-01-31,1.74
+MER-0099,Merchant 099,Enterprise,Food,Chennai,Tamil Nadu,2025-11-12,1.47
+MER-0100,Merchant 100,Enterprise,Travel,Lucknow,Uttar Pradesh,2025-04-30,1.87
+MER-0101,Merchant 101,Enterprise,Fashion,Jaipur,Rajasthan,2025-09-17,2.18
+MER-0102,Merchant 102,Enterprise,Retail,Chennai,Tamil Nadu,2025-04-28,1.28
+MER-0103,Merchant 103,Enterprise,Fashion,Jaipur,Rajasthan,2025-08-17,1.25
+MER-0104,Merchant 104,Medium,Home,Jaipur,Rajasthan,2026-03-02,1.53
+MER-0105,Merchant 105,Enterprise,Healthcare,Jaipur,Rajasthan,2026-01-10,2.03
+MER-0106,Merchant 106,Small,Travel,Lucknow,Uttar Pradesh,2025-04-20,1.42
+MER-0107,Merchant 107,Small,Food,Mumbai,Maharashtra,2025-05-12,1.4
+MER-0108,Merchant 108,Medium,Fashion,Indore,Madhya Pradesh,2025-09-04,1.67
+MER-0109,Merchant 109,Enterprise,Healthcare,Mumbai,Maharashtra,2025-11-10,1.97
+MER-0110,Merchant 110,Medium,Healthcare,Bengaluru,Karnataka,2025-07-27,1.31
+MER-0111,Merchant 111,Enterprise,Education,Indore,Madhya Pradesh,2026-02-14,2.14
+MER-0112,Merchant 112,Medium,Electronics,Delhi,Delhi,2025-06-17,1.9
+MER-0113,Merchant 113,Small,Travel,Hyderabad,Telangana,2025-08-02,1.73
+MER-0114,Merchant 114,Large,Retail,Pune,Maharashtra,2025-06-10,2.05
+MER-0115,Merchant 115,Enterprise,Travel,Lucknow,Uttar Pradesh,2025-07-18,1.84
+MER-0116,Merchant 116,Enterprise,Fashion,Lucknow,Uttar Pradesh,2025-09-04,1.93
+MER-0117,Merchant 117,Enterprise,Education,Hyderabad,Telangana,2026-08-09,2.03
+MER-0118,Merchant 118,Large,Food,Ahmedabad,Gujarat,2025-12-31,2.03
+MER-0119,Merchant 119,Enterprise,Food,Mumbai,Maharashtra,2026-01-11,1.95
+MER-0120,Merchant 120,Large,Retail,Ahmedabad,Gujarat,2026-04-24,1.69
+MER-0121,Merchant 121,Enterprise,Food,Pune,Maharashtra,2025-10-04,1.55
+MER-0122,Merchant 122,Large,Healthcare,Hyderabad,Telangana,2026-03-15,1.76
+MER-0123,Merchant 123,Small,Food,Chennai,Tamil Nadu,2025-10-13,1.92
+MER-0124,Merchant 124,Enterprise,Home,Lucknow,Uttar Pradesh,2025-12-03,1.65
+MER-0125,Merchant 125,Large,Food,Indore,Madhya Pradesh,2025-07-05,1.6
+MER-0126,Merchant 126,Large,Home,Delhi,Delhi,2026-02-08,1.75
+MER-0127,Merchant 127,Large,Travel,Pune,Maharashtra,2026-06-10,1.9
+MER-0128,Merchant 128,Large,Food,Hyderabad,Telangana,2026-02-08,1.32
+MER-0129,Merchant 129,Small,Fashion,Delhi,Delhi,2026-02-18,1.39
+MER-0130,Merchant 130,Large,Electronics,Lucknow,Uttar Pradesh,2026-01-09,2.03
+MER-0131,Merchant 131,Large,Fashion,Hyderabad,Telangana,2025-11-19,1.5
+MER-0132,Merchant 132,Large,Retail,Chennai,Tamil Nadu,2025-08-08,2.17
+MER-0133,Merchant 133,Medium,Home,Chennai,Tamil Nadu,2026-01-25,1.3
+MER-0134,Merchant 134,Enterprise,Home,Indore,Madhya Pradesh,2026-01-17,1.64
+MER-0135,Merchant 135,Large,Home,Bengaluru,Karnataka,2025-05-23,1.31
+MER-0136,Merchant 136,Enterprise,Electronics,Mumbai,Maharashtra,2026-05-16,1.78
+MER-0137,Merchant 137,Medium,Healthcare,Indore,Madhya Pradesh,2025-09-03,1.29
+MER-0138,Merchant 138,Enterprise,Food,Delhi,Delhi,2025-07-31,1.98
+MER-0139,Merchant 139,Enterprise,Healthcare,Jaipur,Rajasthan,2026-07-06,2.06
+MER-0140,Merchant 140,Small,Electronics,Jaipur,Rajasthan,2026-02-07,2.15
+MER-0141,Merchant 141,Large,Electronics,Delhi,Delhi,2025-11-03,1.36
+MER-0142,Merchant 142,Medium,Retail,Bengaluru,Karnataka,2025-06-16,1.61
+MER-0143,Merchant 143,Large,Retail,Ahmedabad,Gujarat,2026-07-26,1.43
+MER-0144,Merchant 144,Small,Food,Hyderabad,Telangana,2026-07-09,2.12
+MER-0145,Merchant 145,Enterprise,Electronics,Ahmedabad,Gujarat,2025-10-20,1.74
+MER-0146,Merchant 146,Medium,Electronics,Bengaluru,Karnataka,2025-12-29,1.26
+MER-0147,Merchant 147,Enterprise,Electronics,Hyderabad,Telangana,2026-01-21,1.67
+MER-0148,Merchant 148,Large,Home,Hyderabad,Telangana,2026-05-18,1.64
+MER-0149,Merchant 149,Enterprise,Travel,Ahmedabad,Gujarat,2025-05-11,1.8
+MER-0150,Merchant 150,Medium,Retail,Indore,Madhya Pradesh,2025-07-03,2.2
+MER-0151,Merchant 151,Medium,Home,Hyderabad,Telangana,2025-05-12,1.72
+MER-0152,Merchant 152,Medium,Education,Lucknow,Uttar Pradesh,2026-01-10,1.83
+MER-0153,Merchant 153,Enterprise,Travel,Lucknow,Uttar Pradesh,2025-07-03,1.61
+MER-0154,Merchant 154,Medium,Travel,Pune,Maharashtra,2025-07-17,1.61
+MER-0155,Merchant 155,Enterprise,Retail,Lucknow,Uttar Pradesh,2026-01-21,1.65
+MER-0156,Merchant 156,Large,Electronics,Pune,Maharashtra,2025-12-15,2.17
+MER-0157,Merchant 157,Small,Home,Jaipur,Rajasthan,2026-09-09,1.61
+MER-0158,Merchant 158,Large,Home,Delhi,Delhi,2026-09-13,1.83
+MER-0159,Merchant 159,Large,Fashion,Indore,Madhya Pradesh,2025-10-26,2.13
+MER-0160,Merchant 160,Small,Retail,Lucknow,Uttar Pradesh,2026-08-10,2.17
+MER-0161,Merchant 161,Medium,Healthcare,Ahmedabad,Gujarat,2025-12-02,1.75
+MER-0162,Merchant 162,Small,Food,Chennai,Tamil Nadu,2026-05-23,2.19
+MER-0163,Merchant 163,Small,Fashion,Mumbai,Maharashtra,2026-07-17,1.7
+MER-0164,Merchant 164,Large,Education,Hyderabad,Telangana,2026-09-04,2.03
+MER-0165,Merchant 165,Enterprise,Fashion,Lucknow,Uttar Pradesh,2025-12-06,1.58
+MER-0166,Merchant 166,Medium,Electronics,Ahmedabad,Gujarat,2026-09-03,1.48
+MER-0167,Merchant 167,Large,Retail,Jaipur,Rajasthan,2026-03-15,1.48
+MER-0168,Merchant 168,Medium,Home,Hyderabad,Telangana,2026-08-15,1.74
+MER-0169,Merchant 169,Enterprise,Home,Pune,Maharashtra,2026-03-07,2.13
+MER-0170,Merchant 170,Enterprise,Food,Delhi,Delhi,2025-12-01,2.06
+MER-0171,Merchant 171,Large,Home,Jaipur,Rajasthan,2025-05-15,1.91
+MER-0172,Merchant 172,Medium,Home,Jaipur,Rajasthan,2026-05-01,2.16
+MER-0173,Merchant 173,Large,Electronics,Bengaluru,Karnataka,2026-08-28,2.07
+MER-0174,Merchant 174,Enterprise,Retail,Lucknow,Uttar Pradesh,2025-07-12,1.92
+MER-0175,Merchant 175,Small,Home,Jaipur,Rajasthan,2025-09-06,1.98
+MER-0176,Merchant 176,Enterprise,Electronics,Hyderabad,Telangana,2026-03-13,2.05
+MER-0177,Merchant 177,Large,Home,Chennai,Tamil Nadu,2026-04-25,2.07
+MER-0178,Merchant 178,Medium,Healthcare,Indore,Madhya Pradesh,2025-06-10,2.2
+MER-0179,Merchant 179,Small,Electronics,Mumbai,Maharashtra,2026-06-19,1.64
+MER-0180,Merchant 180,Small,Travel,Hyderabad,Telangana,2025-04-30,2.0
+MER-0181,Merchant 181,Large,Education,Hyderabad,Telangana,2026-04-03,1.35
+MER-0182,Merchant 182,Medium,Fashion,Chennai,Tamil Nadu,2026-05-27,1.38
+MER-0183,Merchant 183,Medium,Home,Ahmedabad,Gujarat,2026-04-27,2.11
+MER-0184,Merchant 184,Enterprise,Healthcare,Bengaluru,Karnataka,2025-11-24,1.66
+MER-0185,Merchant 185,Large,Fashion,Indore,Madhya Pradesh,2026-07-21,1.27
+MER-0186,Merchant 186,Enterprise,Healthcare,Pune,Maharashtra,2026-02-01,1.66
+MER-0187,Merchant 187,Enterprise,Home,Hyderabad,Telangana,2025-10-21,1.31
+MER-0188,Merchant 188,Large,Healthcare,Jaipur,Rajasthan,2026-04-03,1.22
+MER-0189,Merchant 189,Small,Retail,Jaipur,Rajasthan,2026-01-07,2.11
+MER-0190,Merchant 190,Medium,Travel,Lucknow,Uttar Pradesh,2026-01-19,1.42
+MER-0191,Merchant 191,Medium,Electronics,Delhi,Delhi,2025-12-13,2.1
+MER-0192,Merchant 192,Enterprise,Retail,Indore,Madhya Pradesh,2026-02-11,1.78
+MER-0193,Merchant 193,Large,Travel,Bengaluru,Karnataka,2025-07-02,1.95
+MER-0194,Merchant 194,Medium,Travel,Bengaluru,Karnataka,2025-10-23,1.73
+MER-0195,Merchant 195,Large,Home,Hyderabad,Telangana,2025-09-16,2.17
+MER-0196,Merchant 196,Small,Home,Hyderabad,Telangana,2026-03-13,2.16
+MER-0197,Merchant 197,Enterprise,Travel,Bengaluru,Karnataka,2025-11-18,1.29
+MER-0198,Merchant 198,Large,Electronics,Jaipur,Rajasthan,2025-04-15,1.65
+MER-0199,Merchant 199,Large,Electronics,Hyderabad,Telangana,2026-04-26,1.87
+MER-0200,Merchant 200,Large,Food,Lucknow,Uttar Pradesh,2025-04-26,1.85
+MER-0201,Merchant 201,Enterprise,Electronics,Lucknow,Uttar Pradesh,2026-02-04,1.34
+MER-0202,Merchant 202,Enterprise,Electronics,Indore,Madhya Pradesh,2026-02-06,1.3
+MER-0203,Merchant 203,Enterprise,Home,Chennai,Tamil Nadu,2025-08-17,1.57
+MER-0204,Merchant 204,Medium,Education,Chennai,Tamil Nadu,2026-06-04,1.85
+MER-0205,Merchant 205,Large,Retail,Lucknow,Uttar Pradesh,2026-05-23,1.89
+MER-0206,Merchant 206,Enterprise,Food,Delhi,Delhi,2026-06-29,2.06
+MER-0207,Merchant 207,Large,Retail,Mumbai,Maharashtra,2026-04-12,1.6
+MER-0208,Merchant 208,Enterprise,Electronics,Delhi,Delhi,2025-08-04,1.86
+MER-0209,Merchant 209,Small,Travel,Ahmedabad,Gujarat,2025-04-22,1.44
+MER-0210,Merchant 210,Small,Food,Bengaluru,Karnataka,2025-10-28,1.79
+MER-0211,Merchant 211,Medium,Retail,Delhi,Delhi,2026-03-03,1.48
+MER-0212,Merchant 212,Large,Fashion,Bengaluru,Karnataka,2025-08-12,1.31
+MER-0213,Merchant 213,Small,Travel,Indore,Madhya Pradesh,2025-08-13,1.99
+MER-0214,Merchant 214,Small,Fashion,Delhi,Delhi,2026-02-26,1.47
+MER-0215,Merchant 215,Small,Electronics,Bengaluru,Karnataka,2026-06-06,1.68
+MER-0216,Merchant 216,Small,Home,Pune,Maharashtra,2026-09-08,1.7
+MER-0217,Merchant 217,Large,Home,Ahmedabad,Gujarat,2025-05-15,1.84
+MER-0218,Merchant 218,Enterprise,Education,Indore,Madhya Pradesh,2025-06-02,1.63
+MER-0219,Merchant 219,Enterprise,Electronics,Mumbai,Maharashtra,2026-08-16,2.1
+MER-0220,Merchant 220,Small,Fashion,Pune,Maharashtra,2025-08-30,1.48
+MER-0221,Merchant 221,Enterprise,Healthcare,Ahmedabad,Gujarat,2026-02-27,1.65
+MER-0222,Merchant 222,Small,Electronics,Ahmedabad,Gujarat,2026-06-15,2.05
+MER-0223,Merchant 223,Enterprise,Home,Chennai,Tamil Nadu,2025-11-07,2.09
+MER-0224,Merchant 224,Enterprise,Education,Jaipur,Rajasthan,2026-03-14,1.62
+MER-0225,Merchant 225,Enterprise,Travel,Mumbai,Maharashtra,2026-02-15,1.87
+MER-0226,Merchant 226,Enterprise,Electronics,Pune,Maharashtra,2025-09-04,1.29
+MER-0227,Merchant 227,Enterprise,Electronics,Mumbai,Maharashtra,2025-07-05,1.94
+MER-0228,Merchant 228,Small,Travel,Pune,Maharashtra,2025-08-12,1.87
+MER-0229,Merchant 229,Enterprise,Retail,Jaipur,Rajasthan,2026-03-29,2.17
+MER-0230,Merchant 230,Large,Electronics,Ahmedabad,Gujarat,2026-02-14,1.78
+MER-0231,Merchant 231,Enterprise,Food,Delhi,Delhi,2025-09-06,2.05
+MER-0232,Merchant 232,Small,Healthcare,Pune,Maharashtra,2026-04-12,1.77
+MER-0233,Merchant 233,Large,Retail,Jaipur,Rajasthan,2025-04-27,1.38
+MER-0234,Merchant 234,Large,Retail,Hyderabad,Telangana,2026-03-14,1.38
+MER-0235,Merchant 235,Small,Fashion,Bengaluru,Karnataka,2026-05-16,1.94
+MER-0236,Merchant 236,Medium,Education,Indore,Madhya Pradesh,2025-07-03,1.62
+MER-0237,Merchant 237,Large,Healthcare,Pune,Maharashtra,2025-09-09,1.92
+MER-0238,Merchant 238,Small,Fashion,Ahmedabad,Gujarat,2025-06-26,1.36
+MER-0239,Merchant 239,Small,Healthcare,Ahmedabad,Gujarat,2025-05-21,1.64
+MER-0240,Merchant 240,Enterprise,Education,Jaipur,Rajasthan,2026-08-11,1.47
+MER-0241,Merchant 241,Large,Education,Chennai,Tamil Nadu,2025-07-26,1.31
+MER-0242,Merchant 242,Large,Retail,Ahmedabad,Gujarat,2026-08-12,1.42
+MER-0243,Merchant 243,Small,Food,Ahmedabad,Gujarat,2025-05-27,1.5
+MER-0244,Merchant 244,Large,Healthcare,Delhi,Delhi,2025-08-19,1.53
+MER-0245,Merchant 245,Enterprise,Fashion,Indore,Madhya Pradesh,2026-08-23,1.33
+MER-0246,Merchant 246,Large,Electronics,Chennai,Tamil Nadu,2025-11-22,1.6
+MER-0247,Merchant 247,Small,Home,Indore,Madhya Pradesh,2026-06-21,2.12
+MER-0248,Merchant 248,Enterprise,Education,Pune,Maharashtra,2026-06-14,1.49
+MER-0249,Merchant 249,Large,Fashion,Jaipur,Rajasthan,2025-04-22,2.0
+MER-0250,Merchant 250,Large,Electronics,Ahmedabad,Gujarat,2026-07-16,1.64
+MER-0251,Merchant 251,Enterprise,Education,Mumbai,Maharashtra,2025-12-06,1.72
+MER-0252,Merchant 252,Large,Food,Jaipur,Rajasthan,2026-02-12,1.53
+MER-0253,Merchant 253,Small,Food,Bengaluru,Karnataka,2025-06-18,2.11
+MER-0254,Merchant 254,Medium,Food,Pune,Maharashtra,2026-03-26,1.3
+MER-0255,Merchant 255,Medium,Fashion,Hyderabad,Telangana,2025-10-20,1.96
+MER-0256,Merchant 256,Enterprise,Home,Mumbai,Maharashtra,2025-09-29,1.95
+MER-0257,Merchant 257,Large,Travel,Ahmedabad,Gujarat,2026-07-04,1.35
+MER-0258,Merchant 258,Enterprise,Healthcare,Mumbai,Maharashtra,2026-07-25,2.0
+MER-0259,Merchant 259,Large,Electronics,Ahmedabad,Gujarat,2025-05-28,1.51
+MER-0260,Merchant 260,Small,Travel,Lucknow,Uttar Pradesh,2025-05-09,2.03
+MER-0261,Merchant 261,Enterprise,Home,Mumbai,Maharashtra,2025-07-02,1.78
+MER-0262,Merchant 262,Medium,Travel,Indore,Madhya Pradesh,2026-07-05,1.81
+MER-0263,Merchant 263,Small,Home,Chennai,Tamil Nadu,2025-09-02,1.3
+MER-0264,Merchant 264,Medium,Retail,Pune,Maharashtra,2025-06-26,1.45
+MER-0265,Merchant 265,Medium,Travel,Lucknow,Uttar Pradesh,2026-06-24,1.57
+MER-0266,Merchant 266,Enterprise,Travel,Hyderabad,Telangana,2026-05-02,1.88
+MER-0267,Merchant 267,Small,Travel,Indore,Madhya Pradesh,2026-03-09,1.29
+MER-0268,Merchant 268,Large,Fashion,Jaipur,Rajasthan,2026-01-16,1.53
+MER-0269,Merchant 269,Large,Healthcare,Ahmedabad,Gujarat,2025-08-23,2.17
+MER-0270,Merchant 270,Small,Healthcare,Jaipur,Rajasthan,2025-08-11,1.76
+MER-0271,Merchant 271,Small,Education,Pune,Maharashtra,2025-08-09,1.71
+MER-0272,Merchant 272,Large,Fashion,Indore,Madhya Pradesh,2026-04-07,2.15
+MER-0273,Merchant 273,Medium,Food,Pune,Maharashtra,2026-08-11,2.2
+MER-0274,Merchant 274,Large,Electronics,Bengaluru,Karnataka,2025-06-19,1.71
+MER-0275,Merchant 275,Small,Travel,Chennai,Tamil Nadu,2026-09-22,2.08
+MER-0276,Merchant 276,Enterprise,Fashion,Ahmedabad,Gujarat,2025-08-13,1.36
+MER-0277,Merchant 277,Enterprise,Retail,Ahmedabad,Gujarat,2025-09-17,1.61
+MER-0278,Merchant 278,Large,Home,Delhi,Delhi,2026-06-29,1.43
+MER-0279,Merchant 279,Enterprise,Food,Delhi,Delhi,2026-02-11,1.57
+MER-0280,Merchant 280,Enterprise,Healthcare,Ahmedabad,Gujarat,2026-06-26,1.98
+MER-0281,Merchant 281,Enterprise,Fashion,Chennai,Tamil Nadu,2026-09-23,2.02
+MER-0282,Merchant 282,Large,Retail,Ahmedabad,Gujarat,2025-08-20,1.84
+MER-0283,Merchant 283,Small,Healthcare,Pune,Maharashtra,2025-07-15,1.28
+MER-0284,Merchant 284,Enterprise,Fashion,Bengaluru,Karnataka,2026-01-05,2.03
+MER-0285,Merchant 285,Enterprise,Travel,Mumbai,Maharashtra,2025-11-14,2.13
+MER-0286,Merchant 286,Enterprise,Travel,Jaipur,Rajasthan,2025-05-25,1.44
+MER-0287,Merchant 287,Medium,Retail,Mumbai,Maharashtra,2026-04-19,1.52
+MER-0288,Merchant 288,Medium,Fashion,Mumbai,Maharashtra,2026-03-10,1.24
+MER-0289,Merchant 289,Enterprise,Home,Lucknow,Uttar Pradesh,2025-08-21,1.82
+MER-0290,Merchant 290,Large,Food,Mumbai,Maharashtra,2025-04-20,2.03
+MER-0291,Merchant 291,Enterprise,Electronics,Chennai,Tamil Nadu,2026-09-23,1.98
+MER-0292,Merchant 292,Small,Retail,Delhi,Delhi,2026-02-03,1.44
+MER-0293,Merchant 293,Small,Electronics,Ahmedabad,Gujarat,2026-07-13,2.04
+MER-0294,Merchant 294,Medium,Fashion,Lucknow,Uttar Pradesh,2025-04-17,1.49
+MER-0295,Merchant 295,Medium,Education,Indore,Madhya Pradesh,2026-03-28,1.39
+MER-0296,Merchant 296,Large,Electronics,Mumbai,Maharashtra,2026-09-19,2.15
+MER-0297,Merchant 297,Small,Education,Chennai,Tamil Nadu,2026-09-02,2.07
+MER-0298,Merchant 298,Large,Healthcare,Indore,Madhya Pradesh,2026-05-02,1.95
+MER-0299,Merchant 299,Large,Food,Pune,Maharashtra,2025-06-09,1.93
+MER-0300,Merchant 300,Medium,Retail,Mumbai,Maharashtra,2026-03-07,1.55
