@@ -1,20 +1,58 @@
 # Payment Revenue & Profitability Intelligence
 
-Payment businesses can process thousands of transactions without having a clear view of how fee reversals, processing costs, and settlement discrepancies affect financial performance.
+A financial analytics project built to evaluate payment performance, fee revenue, contribution profitability, merchant performance, and reconciliation risk using synthetic payment data.
 
-This project builds a financial analytics API to measure payment performance, merchant contribution profitability, and reconciliation exceptions using synthetic payment data.
+**Current status:** Python data pipelines, PostgreSQL analytics, FastAPI endpoints, automated tests, and a four-page Power BI dashboard are completed. The GenAI intelligence layer is the next development phase.
 
-**Current status:** FastAPI, PostgreSQL analytics, and automated testing completed. Power BI integration is next.
+## Dashboard
+
+The final Power BI solution contains four analytical pages.
+
+### 01 — Executive Overview
+
+![Executive Overview](dashboard_imgs/01_Executive_Overview.png)
+
+### 02 — Payment Performance
+
+![Payment Performance](dashboard_imgs/02_Payment_Performance.png)
+
+### 03 — Merchant Profitability
+
+![Merchant Profitability](dashboard_imgs/03_Merchant_Profitability.png)
+
+### 04 — Financial Risk & Reconcilation
+
+![Financial Risk & Reconcilation](dashboard_imgs/04_Financial_Risk.png)
+
 
 ## Business Problem
 
-The project addresses three financial monitoring questions:
+Payment businesses need visibility into how transaction outcomes, fee reversals, processing costs, refunds, chargebacks, and settlement discrepancies affect financial performance.
 
-- **Payment performance:** How much payment volume succeeds, and how many attempts fail or are cancelled?
-- **Revenue and profitability:** How do fee reversals and processing costs affect net fee revenue and contribution profit?
-- **Financial reconciliation:** Which settlement discrepancies and recorded exceptions require further investigation?
+This project addresses four analytical areas:
 
-## Key Findings
+- **Payment performance:** Success, failure, cancellation, and payment-method performance.
+- **Revenue and profitability:** Gross fees, fee reversals, net fee revenue, processing costs, and contribution profit.
+- **Merchant profitability:** TPV, contribution profit, contribution margin, and merchant-level comparisons.
+- **Financial risk:** Chargebacks, settlement variances, reconciliation exceptions, and unresolved exposure.
+
+## Dataset
+
+The project uses generated, synthetic payment and merchant records.
+
+| Dataset | Records |
+|---|---:|
+| Payment attempts | 20,000 |
+| Merchants | 300 |
+| Transaction fees | 16,994 |
+| Settlements | 16,175 |
+| Refunds | 670 |
+| Chargebacks | 177 |
+| Reconciliation exceptions | 324 |
+
+The dataset covers an 18-month transaction period and four payment methods: UPI, cards, net banking, and wallets.
+
+## Key Financial Results
 
 Results from the current synthetic dataset:
 
@@ -35,128 +73,199 @@ Results from the current synthetic dataset:
 | Settlements with recorded variance | 1,595 |
 | Absolute settlement variance | ₹85,850 |
 
-**Interpretation:** Fee reversals reduce gross fee revenue, while processing costs further reduce contribution profit. Settlement variances identify discrepancies to investigate; they are not automatically confirmed financial losses.
-
-These figures describe the current synthetic dataset and analytical assumptions, not real payment-provider or merchant performance.
+These figures represent the generated dataset and the project's current analytical assumptions. They are not actual payment-provider or merchant results.
 
 ## Financial Metric Definitions
 
 - **TPV:** Sum of successful transaction amounts.
-- **Gross fee revenue:** Recorded gross fees before reversals.
-- **Net fee revenue:** Gross fee revenue minus fee reversals.
-- **Contribution profit:** Net fee revenue minus modelled processing costs.
-- **Contribution margin:** Contribution profit divided by net fee revenue, expressed as a percentage.
-- **Settlement variance:** Actual settlement amount minus expected settlement amount.
+- **Gross fee revenue:** Recorded gross transaction fees before reversals.
+- **Net fee revenue:** Gross fee revenue less fee reversals.
+- **Contribution profit:** Net fee revenue less modelled processing costs.
+- **Contribution margin:** Contribution profit divided by net fee revenue.
+- **Settlement variance:** Difference between expected and actual settlement amounts.
 
-Processing costs are illustrative assumptions by payment method, not actual provider pricing. Settlement expectations currently use successful transaction amounts less gross fees, with an expected settlement date two days after the transaction date. Refunds and chargebacks are analysed separately and are not automatically deducted from this settlement calculation.
+Processing costs use illustrative assumptions by payment method, not actual provider pricing.
+
+Settlement expectations currently use successful transaction amounts less gross fees, with an expected settlement date two days after the transaction date. Refunds and chargebacks are analysed separately and are not automatically deducted from this settlement calculation.
+
+Settlement variances and reconciliation exceptions indicate items requiring investigation; they are not automatically confirmed financial losses.
+
+## Power BI Dashboard
+
+The completed dashboard contains four analytical pages.
+
+### 1. Executive Overview
+- Total TPV, net fee revenue, contribution profit, processing cost, success rate, and contribution margin.
+- Revenue bridge from gross fee revenue to contribution profit.
+- Payment status breakdown.
+- Reconciliation exception overview.
+- Monthly refund and chargeback trends.
+
+### 2. Payment Performance & Failure Analysis
+- Failed transaction value and failure rate.
+- Cancellation rate and average successful payment.
+- Payment method mix.
+- Failure rate and status composition by payment method.
+- Payment failure distribution by location.
+- Monthly failed and cancelled transaction value.
+
+### 3. Merchant Profitability
+- Merchant-level TPV, net fee revenue, contribution profit, and contribution margin.
+- Top 10 merchants by contribution profit.
+- Merchant TPV versus contribution margin.
+- Contribution profit by merchant segment.
+
+### 4. Financial Risk & Reconciliation
+- Unresolved exceptions.
+- High-severity unresolved percentage.
+- Absolute settlement variance.
+- Lost chargeback principal.
+- Financial exposure by exception type.
+- Chargeback reason distribution.
+- Exception severity concentration.
+- Exception resolution status by type.
+- Monthly financial risk exposure.
+
+The dashboard uses a shared operating-period filter and a separate chargeback-period filter to distinguish transaction and settlement reporting from actual chargeback-date analysis.
 
 ## Technical Architecture
 
 ```text
 Synthetic Payment Data
-          |
-          v
-Python Data Generation and Loading
-          |
-          v
+        |
+        v
+Python Data Generation & Loading
+        |
+        v
 PostgreSQL Database
-          |
-          v
+        |
+        v
 SQL Financial Analytics
-          |
-          v
-FastAPI Endpoints
-          |
-          v
+        |
+        v
+FastAPI REST Endpoints
+        |
+        v
 JSON Responses
-          |
-          v
-Power BI Integration — Next
+
+Power BI
+        |
+        v
+Four-page Financial Analytics Dashboard
+
+Next Development Phase:
+FastAPI + Gemini API
+        |
+        v
+Financial Intelligence & GenAI Layer
 ```
 
-### Technology Stack
+## Technology Stack
 
-- **Python** — synthetic data generation, validation, and API implementation
-- **FastAPI** — REST API and request validation
-- **PostgreSQL** — relational data storage and SQL analytics
-- **SQLAlchemy + psycopg** — database connectivity and SQL execution
-- **Pydantic** — response schemas and data validation
-- **pytest** — automated testing and coverage measurement
-- **Power BI** — planned reporting and visual analytics layer
+| Technology | Purpose |
+|---|---|
+| Python | Data generation, transformation, validation, and API implementation |
+| Pandas | Data processing |
+| PostgreSQL | Relational data storage |
+| SQL | Financial analytics and data validation |
+| FastAPI | REST API development |
+| SQLAlchemy + psycopg | Database connectivity and SQL execution |
+| Pydantic | Request and response validation |
+| pytest | Automated testing |
+| Power BI | Financial reporting and interactive dashboards |
+| Google Gemini API | Planned LLM-based financial interpretation |
 
 ## API Endpoints
 
 | Endpoint | Purpose |
 |---|---|
-| `GET /health` | Health check |
-| `GET /analytics/overview` | Overall payment performance and financial metrics |
-| `GET /analytics/merchant-profitability` | Merchant-level profitability rankings with optional date filters |
-| `GET /docs` | Interactive Swagger API documentation |
+| `GET /health` | API health check |
+| `GET /analytics/overview` | Overall payment and financial metrics |
+| `GET /analytics/merchant-profitability` | Merchant-level profitability analysis |
+| `GET /docs` | Interactive Swagger documentation |
 
 The merchant profitability endpoint supports `limit`, `start_date`, and `end_date` parameters.
 
 Example:
 
-```text
+```http
 GET /analytics/merchant-profitability?limit=10&start_date=2026-09-01&end_date=2026-09-30
 ```
 
-Dates use `YYYY-MM-DD` format. The endpoint rejects an end date earlier than the start date and validates the limit.
+Dates use `YYYY-MM-DD` format. The endpoint validates the date range and limit.
 
 ## Repository Structure
 
 ```text
 payment-revenue-profitability-intelligence/
+│
 ├── api/
+│   ├── __init__.py
 │   ├── analytics.py
 │   ├── config.py
 │   ├── database.py
 │   ├── main.py
 │   ├── schemas.py
 │   └── transactions.py
+│
+├── dashboard_imgs/
+│   ├── 01_Executive_Overview.png
+│   ├── 02_Payment_Performance.png
+│   ├── 03_Merchant_Profitability.png
+│   └── 04_Financial_Risk.png
+│
 ├── data/
-│   ├── generate_data.py
+│   ├── chargebacks.csv
 │   ├── generate_chargebacks.py
+│   ├── generate_data.py
 │   ├── generate_exceptions.py
 │   ├── generate_refunds.py
 │   ├── generate_settlements.py
 │   ├── load_data.py
-│   ├── update_fee_reversals.py
-│   └── *.csv
+│   ├── merchants.csv
+│   ├── reconciliation_exceptions.csv
+│   ├── refunds.csv
+│   ├── settlements.csv
+│   ├── transaction_fees.csv
+│   ├── transactions.csv
+│   └── update_fee_reversals.py
+│
+├── powerbi/
+│   └── [Power BI dashboard file]
+│
 ├── sql/
-│   ├── schema.sql
+│   ├── sql_docs/
 │   ├── 01_data_validation.sql
 │   ├── 02_financial_analytics.sql
-│   └── sql_docs/
-│       └── 00_business_logic.md
+│   └── schema.sql
+│
 ├── tests/
 │   ├── test_analytics.py
 │   ├── test_api.py
 │   ├── test_db_connection.py
 │   └── test_transactions.py
+│
 ├── .gitignore
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
-
-The CSV files contain synthetic data. The repository also includes scripts for generating, loading, and updating the datasets.
+Python cache folders and generated test artifacts are omitted from this documentation view.
 
 ## Local Setup
 
 ### Prerequisites
-
 - Python
 - PostgreSQL
 - Git
 
 ### 1. Clone the repository
 
-```powershell
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+```bash
+git clone https://github.com/rahuldixit01/payment-revenue-profitability-intelligence.git
 cd payment-revenue-profitability-intelligence
 ```
 
-### 2. Create and activate a virtual environment
+### 2. Create a virtual environment
 
 ```powershell
 python -m venv .venv
@@ -165,15 +274,15 @@ python -m venv .venv
 
 ### 3. Install dependencies
 
-```powershell
+```bash
 python -m pip install -r requirements.txt
 ```
 
 ### 4. Configure PostgreSQL
 
-Create a PostgreSQL database named `payment_intelligence`, then configure the connection through environment variables.
+Create a database named `payment_intelligence`.
 
-In PowerShell:
+Configure the database connection using environment variables:
 
 ```powershell
 $env:DB_USER = "postgres"
@@ -182,90 +291,76 @@ $env:DB_PORT = "5432"
 $env:DB_NAME = "payment_intelligence"
 ```
 
-Set the password securely in the same terminal session:
-
-```powershell
-$secure = Read-Host "Enter your PostgreSQL password" -AsSecureString
-$env:DB_PASSWORD = (New-Object System.Net.NetworkCredential("", $secure)).Password
-```
-
-Never commit database passwords, private credentials, or local environment files.
+Set `DB_PASSWORD` securely in your local environment. Never commit database passwords, API keys, or `.env` files.
 
 ### 5. Prepare the database
 
-Use the provided SQL schema and data-loading scripts according to the project's existing database setup.
+Use the supplied SQL schema and data-loading scripts.
 
-**Important:** The existing loader inserts data into the database. Do not rerun it against an already populated database without first understanding its insert behaviour and preparing a safe reload or reset procedure.
+The loader inserts records into the database. Do not rerun it against an already populated database without first preparing a safe reset or reload procedure.
 
 ### 6. Start the API
 
-From the project root, in the same terminal where the database environment variables are configured:
-
-```powershell
+```bash
 python -m uvicorn api.main:app --reload
 ```
 
-Open:
+Local endpoints:
 
-- Health check: `http://127.0.0.1:8000/health`
-- Swagger documentation: `http://127.0.0.1:8000/docs`
-- Analytics overview: `http://127.0.0.1:8000/analytics/overview`
-
-The API runs locally on port `8000`. PostgreSQL typically listens on port `5432`. Localhost access does not make the API publicly accessible over the internet.
+- Health: `http://127.0.0.1:8000/health`
+- Swagger: `http://127.0.0.1:8000/docs`
+- Overview: `http://127.0.0.1:8000/analytics/overview`
 
 ## Testing and Validation
 
 The latest recorded test run completed with:
 
-- **22 tests passed**
-- **100% statement coverage**
-- 123 statements measured, with zero missed
+- 22 tests passed.
+- 100% statement coverage.
+- 123 statements measured, with zero missed.
 
-Coverage measures which statements were executed by the test suite. It does not, by itself, guarantee that every possible scenario is correct.
+Tests cover database connectivity, analytics results, API responses, transaction validation, date filters, and invalid inputs.
 
-The tests cover database connectivity, analytics results, API responses, transaction validation, date filters, and invalid inputs.
+Run:
 
-Run the tests from the project root:
-
-```powershell
+```bash
 python -m pytest
 ```
 
-To generate a coverage report:
+Generate a coverage report:
 
-```powershell
+```bash
 python -m pytest --cov=api --cov-report=term-missing
 ```
 
-## Data and Analytical Limitations
+Coverage measures executed statements; it does not guarantee that every possible scenario is correct.
 
-- All generated payment records and associated merchant data are synthetic.
-- Processing-cost assumptions are illustrative, not actual payment-provider fee schedules.
-- Recorded settlement variances and reconciliation exceptions require investigation; they do not independently establish a realised loss.
-- Refunds, chargebacks, and settlement discrepancies are tracked separately from the contribution-profit calculation.
-- Results depend on the documented metric definitions and current dataset.
+## Data Limitations
 
-## Project Roadmap
+- All generated transaction and merchant records are synthetic.
+- Processing-cost assumptions are illustrative.
+- Settlement variances and reconciliation exceptions require investigation and do not independently establish realised losses.
+- Refunds, chargebacks, and settlement discrepancies are tracked separately from contribution profit.
+- Financial results depend on the current dataset and documented metric definitions.
 
-- [x] Generate synthetic payment datasets
-- [x] Create the PostgreSQL schema and load data
-- [x] Implement SQL financial analytics
-- [x] Build FastAPI endpoints
-- [x] Add automated tests and validate API responses
-- [ ] Connect Power BI to the API
-- [ ] Build financial performance and merchant profitability reports
-- [ ] Validate the end-to-end reporting workflow
+## Development Roadmap
 
-## Project Scope & Future Direction
+- [x] Generate synthetic payment datasets.
+- [x] Build PostgreSQL schema and load data.
+- [x] Implement SQL financial analytics.
+- [x] Develop FastAPI endpoints.
+- [x] Add automated tests and validate API responses.
+- [x] Build the four-page Power BI dashboard.
+- [ ] Integrate Google Gemini API.
+- [ ] Develop the Financial Intelligence & GenAI layer.
+- [ ] Generate evidence-grounded root-cause explanations and recommendations.
+- [ ] Validate LLM responses against known financial scenarios.
+- [ ] Integrate generated insights into a user-facing interface.
 
-This project establishes the foundation for a scalable payment financial intelligence platform, combining SQL analytics, API-driven data access, database integration, and automated testing.
+## Project Direction
 
-The architecture is designed to evolve toward production use through:
+The next development phase extends the existing analytics API with an LLM-based financial interpretation layer.
 
-- **Reliable data pipelines** with stronger validation, reconciliation, and data-quality controls.
-- **Scalable API services** with authentication, structured error handling, logging, and performance monitoring.
-- **Financial intelligence** for revenue optimisation, contribution profitability, merchant performance, and financial risk analysis.
-- **Integrated reporting** through Power BI for actionable business insights and financial decision-making.
-- **Production readiness** through deployment, security controls, automated testing, and operational monitoring.
+SQL and Python will remain responsible for calculating and validating financial metrics. Gemini will interpret verified outputs to explain performance movements, identify potential risk drivers, and generate evidence-based business recommendations.
 
-The current implementation provides a working foundation, using synthetic payment data to develop and validate the analytical workflows before integrating additional production-grade capabilities and real-world data sources.
+The objective is to combine structured financial analytics with grounded AI-assisted decision support, without treating generated explanations as a substitute for financial validation.
