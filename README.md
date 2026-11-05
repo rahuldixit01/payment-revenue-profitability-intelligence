@@ -20,9 +20,9 @@ The final Power BI solution contains four analytical pages.
 
 ![Merchant Profitability](dashboard_imgs/03_Merchant_Profitability.png)
 
-### 04 — Financial Risk & Reconcilation
+### 04 — Financial Risk & Reconciliation
 
-![Financial Risk & Reconcilation](dashboard_imgs/04_Financial_Risk.png)
+![Financial Risk & Reconciliation](dashboard_imgs/04_Financial_Risk.png)
 
 
 ## Business Problem
