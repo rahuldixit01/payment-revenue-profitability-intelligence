@@ -231,7 +231,7 @@ payment-revenue-profitability-intelligence/
 │   └── update_fee_reversals.py
 │
 ├── powerbi/
-│   └── [Power BI dashboard file]
+│   └── Payment_Revenue_Profitability_Intelligence.pbix
 │
 ├── sql/
 │   ├── sql_docs/
